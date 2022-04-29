@@ -32,10 +32,8 @@ body {
 .header-top {
     background-color:#255ee9;
     height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    padding-top: 20px;
 }
 
 .header-top-col {
@@ -81,6 +79,7 @@ nav {
     text-align: right;
     font-size: 15px;
     color: black;
+    background-color: pink;
 }
 
 /* HEADER-BOTTOM */
