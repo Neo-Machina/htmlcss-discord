@@ -16,11 +16,10 @@ body {
 }
 
 .border {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
 .columns {
-    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +38,7 @@ body {
 .header-top-col {
     display: flex;
     height: 25px;
-    background-color: orange;
+    /* background-color: orange; */
     align-items: center;
 }
 
@@ -73,13 +72,20 @@ nav {
     text-decoration: none;
     color: inherit;
 }
+
 /* LOGIN */
 .login {
     width: 20%;
     text-align: right;
     font-size: 15px;
+}
+
+.button-login {
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px 12px;
+    text-decoration: none;
     color: black;
-    background-color: pink;
 }
 
 /* HEADER-BOTTOM */
