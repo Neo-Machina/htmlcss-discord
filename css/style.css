@@ -250,17 +250,46 @@ h1 {
 /* FOOTER-TOP */
 .footer-top {
     background-color: #23272a;
-    height: 350px;
+    height: 500px;
     border-bottom: 2px solid white;
     display: flex;
     justify-content: center;
 }
 
 .col-red {
-    background-color:#f08080 ;
     width: 30%;
-    height: 320px;
+    padding-top: 60px;
 }
+
+
+.flag {
+    width: 22px;
+    padding-top: 15px;
+}
+
+.span-text {
+    font-size: 12px;
+    color: white;
+}
+
+.brand-icons {
+    color: white;
+    padding-top: 20px;
+}
+
+.list-header {
+    list-style-type: none;
+}
+
+.fa-brands, .fab {
+    padding-right: 20px;
+}
+
+.ft-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 
 .ft-columns {
     display: flex;
@@ -271,17 +300,19 @@ h1 {
 
 .nth-col {
     display: flex;
-    height: 320px;
+    padding-top: 50px;
     width: 70%;
+    font-size: 15px;
+    color: white;
+    line-height: 2;
 }
 
 .ft-col-green {
-    background-color: #20b2aa;
     width: 25%;
 }
 
-.white-border {
-    border: 1px dashed white;
+.list-header > :first-child {
+    color: #7289d9;
 }
 
 /* FOOTER-BOTTOM */
@@ -305,6 +336,8 @@ h1 {
     padding: 1px 5px;
     font-size: 12px;
 }
+
+
 
 
 
