@@ -15,8 +15,16 @@ body {
     margin: auto;
 }
 
-.border {
-    /* border: 2px dashed black; */
+.l-r-btn {
+    width: 20%;
+    text-align: right;
+    font-size: 15px;
+}
+
+.smallbutton {
+    border-radius: 16px;
+    padding: 8px 12px;
+    text-decoration: none;
 }
 
 .columns {
@@ -26,7 +34,6 @@ body {
 }
 
 .buttons {
-    /* background-color: orange; */
     padding: 12px 18px;
     border-radius: 22px;
     display: inline-block;
@@ -93,18 +100,9 @@ nav {
 }
 
 /* LOGIN */
-.login {
-    width: 20%;
-    text-align: right;
-    font-size: 15px;
-}
-
 .button-login {
-    background-color: white;
-    border-radius: 16px;
-    padding: 8px 12px;
-    text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 /* HEADER-BOTTOM */
@@ -250,15 +248,13 @@ h1 {
 /* FOOTER-TOP */
 .footer-top {
     background-color: #23272a;
-    height: 500px;
-    border-bottom: 2px solid white;
     display: flex;
     justify-content: center;
 }
 
-.col-red {
+.col-ft-top1 {
     width: 30%;
-    padding-top: 60px;
+    padding-top: 25px;
 }
 
 
@@ -295,24 +291,30 @@ h1 {
     display: flex;
     justify-content: center;
     height: 350px;
-    padding-top: 5px;
+    padding-top: 40px;
 }
 
 .nth-col {
     display: flex;
-    padding-top: 50px;
+    padding-top: 20px;
     width: 70%;
     font-size: 15px;
     color: white;
     line-height: 2;
 }
 
-.ft-col-green {
+.ft-col-top2 {
     width: 25%;
 }
 
 .list-header > :first-child {
     color: #7289d9;
+}
+
+.hr-footer {
+    margin-top: 70px;
+    border: 1px solid #7189da;
+    margin-bottom: 15px;
 }
 
 /* FOOTER-BOTTOM */
@@ -323,19 +325,19 @@ h1 {
 }
 
 .ft-bottom-col {
-    background-color: #7fffd4;
     display: flex;
     height: 40px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px; 
+    margin-bottom: 60px; 
 }
 
-.logo-ft, .button {
-    background-color: #ffb6c1;
-    padding: 1px 5px;
-    font-size: 12px;
+.register-button {
+    background-color: #7289da;
+    color: white;
 }
+
+
 
 
 
