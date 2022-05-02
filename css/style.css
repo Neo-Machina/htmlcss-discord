@@ -25,6 +25,7 @@ body {
     border-radius: 16px;
     padding: 8px 12px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .columns {
@@ -49,6 +50,16 @@ body {
     font-size: 48px;
     margin-bottom: 8px;
     padding: 20px;
+}
+
+.wave {
+    background-image: url("../img/wave.svg");
+    height: 110px;
+    filter: opacity(0.04);
+}
+
+.wave.updown {
+    transform: rotate(180deg);
 }
 
 /* HEADER */
