@@ -75,7 +75,6 @@ body {
 .header-top-col {
     display: flex;
     height: 25px;
-    /* background-color: orange; */
     align-items: center;
 }
 
